@@ -1,0 +1,68 @@
+body{
+  background-image: url(images/beast.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  font-family: 'Droid Sans';
+  font-size: 150%;
+}
+h2{
+  font-weight: bold;
+  font-size: 125%;
+  font-family: 'Droid Sans';
+}
+#quote-box {
+background: rgba(255,255,255,0.7);
+border-radius: 25px;
+width: 400px;
+padding: 10px;
+text-align: center;
+box-shadow: 4px 4px 2px grey;
+}
+.quote {
+  width: 100px;
+  display: inline-block;
+  border-left: 1.5px solid;
+  padding: 5px;
+  font-style: italic;
+}
+.author {
+  font-weight: bold;
+  font-style: normal;
+}
+#do-you-have-box {
+background: rgba(0,0,0,0.7);
+border-radius: 25px;
+width: 400px;
+height: 200px;
+text-align: center;
+float: right;
+padding: 10px;
+border-style: dotted;
+border-width: 12px;
+border-color: rgb(38, 76, 40);
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-family: 'Droid Sans'
+}
+form {
+  color: white;
+  text-align: left;
+  font-size: 75%;
+}
+.name {
+  padding: 5px;
+  margin: 15px;
+}
+.email {
+  padding: 5px;
+  margin: 15px;
+}
+.enter {
+  float: right;
+}
